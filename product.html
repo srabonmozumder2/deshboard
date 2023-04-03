@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="/img/download.jpg">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="webfonts">
+    <link rel="stylesheet" href="css/datatables.min.css">
+    <link rel="stylesheet" href="css/product.css">
+</head>
+<body>
+    <div class="page-wrapper chiller-theme toggled">
+        <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
+          <i class="fas fa-bars"></i>
+        </a>
+        <nav id="sidebar" class="sidebar-wrapper">
+          <div class="sidebar-content">
+            <div class="sidebar-brand">
+              <a href="#">pro sidebar</a>
+              <div id="close-sidebar">
+                <i class="fas fa-times"></i>
+              </div>
+            </div>
+            <div class="sidebar-header">
+              <div class="user-pic">
+                <img class="img-responsive img-rounded" src="img/download.jpg"
+                  alt="User picture">
+              </div>
+              <div class="user-info">
+                <span class="user-name">Jhon
+                  <strong>Smith</strong>
+                </span>
+                <span class="user-role">Administrator</span>
+                <span class="user-status">
+                  <i class="fa fa-circle"></i>
+                  <span>Online</span>
+                </span>
+              </div>
+            </div>
+            <!-- sidebar-header  -->
+            <div class="sidebar-search">
+              <div>
+                <div class="input-group">
+                  <input type="text" class="form-control search-menu" placeholder="Search...">
+                  <div class="input-group-append">
+                    <span class="input-group-text">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- sidebar-search  -->
+            <div class="sidebar-menu">
+              <ul>
+                <li class="header-menu">
+                  <span>General</span>
+                </li>
+                <li class="sidebar-dropdown">
+                  <a href="#">
+                    <i class="fa fa-tachometer-alt"></i>
+                    <span>Dashboard</span>
+                    <span class="badge badge-pill bg-warning">New</span>
+                  </a>
+                  <div class="sidebar-submenu">
+                    <ul>
+                      <li>
+                        <a href="index.html">Dashboard 1
+                          <span class="badge badge-pill bg-success">Pro</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="index.html">Dashboard 2</a>
+                      </li>
+                      <li>
+                        <a href="#">Manage Employees</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="sidebar-dropdown">
+                  <a href="#">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span>E-commerce</span>
+                    <span class="badge badge-pill bg-danger">3</span>
+                  </a>
+                  <div class="sidebar-submenu">
+                    <ul>
+                      <li>
+                        <a href="product.html">Products
+      
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">Orders</a>
+                      </li>
+                      <li>
+                        <a href="shoping.html">Credit cart</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="sidebar-dropdown">
+                  <a href="#">
+                    <i class="far fa-gem"></i>
+                    <span>Components</span>
+                  </a>
+                  <div class="sidebar-submenu">
+                    <ul>
+                      <li>
+                        <a href="#">General</a>
+                      </li>
+                      <li>
+                        <a href="#">Panels</a>
+                      </li>
+                      <li>
+                        <a href="table.html">Tables</a>
+                      </li>
+                      <li>
+                        <a href="#">Icons</a>
+                      </li>
+                      <li>
+                        <a href="#">Forms</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="sidebar-dropdown">
+                  <a href="#">
+                    <i class="fa fa-chart-line"></i>
+                    <span>Charts</span>
+                  </a>
+                  <div class="sidebar-submenu">
+                    <ul>
+                      <li>
+                        <a href="#">Pie chart</a>
+                      </li>
+                      <li>
+                        <a href="#">Line chart</a>
+                      </li>
+                      <li>
+                        <a href="#">Bar chart</a>
+                      </li>
+                      <li>
+                        <a href="#">Histogram</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="sidebar-dropdown">
+                  <a href="#">
+                    <i class="fa fa-globe"></i>
+                    <span>Maps</span>
+                  </a>
+                  <div class="sidebar-submenu">
+                    <ul>
+                      <li>
+                        <a href="map.html">Google maps</a>
+                      </li>
+                      <li>
+                        <a href="#">Open street map</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="header-menu">
+                  <span>Extra</span>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-book"></i>
+                    <span>Documentation</span>
+                    <span class="badge badge-pill bg-primary">Beta</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-calendar"></i>
+                    <span>Calendar</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-folder"></i>
+                    <span>Examples</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- sidebar-menu  -->
+          </div>
+          <!-- sidebar-content  -->
+          <div class="sidebar-footer">
+            <a href="#">
+              <i class="fa fa-bell"></i>
+              <span class="badge badge-pill bg-warning notification">3</span>
+            </a>
+            <a href="#">
+              <i class="fa fa-envelope"></i>
+              <span class="badge badge-pill bg-success notification">7</span>
+            </a>
+            <a href="#">
+              <i class="fa fa-cog"></i>
+              <span class="badge-sonar"></span>
+            </a>
+            <a href="#">
+              <i class="fa fa-power-off"></i>
+            </a>
+          </div>
+        </nav>
+        <!-- sidebar-wrapper  -->
+        <main class="page-content">
+            <div class="container">
+               <!-- <div class="product-table-area">
+                <div class="table-wrap">
+                  <table class="table table-responsive table-borderless">
+                      <thead>
+                          <th>&nbsp;</th>
+                          <th>&nbsp;</th>
+                          <th>Product</th>
+                          <th>Price</th>
+                          <th>Quantity</th>
+                          <th>total</th>
+                          <th>&nbsp;</th>
+                      </thead>
+                      <tbody>
+                          <tr class="align-middle alert border-bottom">
+                              <td>
+                                  <div class="checkbox-wrapper-12">
+                                      <div class="cbx">
+                                        <input id="cbx-12" type="checkbox"/>
+                                        <label for="cbx-12"></label>
+                                        <svg width="15" height="14" viewbox="0 0 15 14" fill="none">
+                                          <path d="M2 8.36364L6.23077 12L13 2"></path>
+                                        </svg>
+                                      </div>
+                                      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                                        <defs>
+                                          <filter id="goo-12">
+                                            <fegaussianblur in="SourceGraphic" stddeviation="4" result="blur"></fegaussianblur>
+                                            <fecolormatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 22 -7" result="goo-12"></fecolormatrix>
+                                            <feblend in="SourceGraphic" in2="goo-12"></feblend>
+                                          </filter>
+                                        </defs>
+                                      </svg>
+                                    </div>
+                              </td>
+                              <td class="text-center">
+                                  <img class="product-pic"
+                                      src="img/dance-shoes-images-5.png"
+                                      alt="">
+                              </td>
+                              <td>
+                                  <div>
+                                      <p class="m-0 fw-bold">Sneakers Shoes 2020 For Men</p>
+                                      <p class="m-0 text-muted">Fugiat Voluptates quasi nemo,ipsa perferencis</p>
+                                  </div>
+                              </td>
+                              <td>
+                                 <div class="fw-600">$44.99</div>
+                              </td>
+                              <td class="d-">
+                                  <input class="input" type="text" placeholder="2">
+                              </td>
+                              <td>
+                                  $89.98
+                              </td>
+                              <td>
+                                  <div class="btn" data-bs-dismiss="alert">
+                                      <span class="fas fa-times"></span>
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr class="align-middle alert border-bottom">
+                              <td>
+                                  <div class="checkbox-wrapper-12">
+                                      <div class="cbx">
+                                        <input id="cbx-12" type="checkbox"/>
+                                        <label for="cbx-12"></label>
+                                        <svg width="15" height="14" viewbox="0 0 15 14" fill="none">
+                                          <path d="M2 8.36364L6.23077 12L13 2"></path>
+                                        </svg>
+                                      </div>
+
+                                      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                                        <defs>
+                                          <filter id="goo-12">
+                                            <fegaussianblur in="SourceGraphic" stddeviation="4" result="blur"></fegaussianblur>
+                                            <fecolormatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 22 -7" result="goo-12"></fecolormatrix>
+                                            <feblend in="SourceGraphic" in2="goo-12"></feblend>
+                                          </filter>
+                                        </defs>
+                                      </svg>
+                                    </div>
+                              </td>
+                              <td class="text-center">
+                                  <img class="product-pic"
+                                      src="img/image-pngimg-2.png"
+                                      alt="">
+                              </td>
+                              <td>
+                                  <div>
+                                      <p class="m-0 fw-bold">Sneakers Shoes 2020 For Men</p>
+                                      <p class="m-0 text-muted">Fugiat Voluptates quasi nemo,ipsa perferencis</p>
+                                  </div>
+                              </td>
+                              <td>
+                                  <div class="fw-600">$54.99</div>
+                              </td>
+                              <td class="d-">
+                                  <input class="input" type="text" placeholder="2">
+                              </td>
+                              <td>
+                                  $108.98
+                              </td>
+                              <td>
+                                  <div class="btn" data-bs-dismiss="alert">
+                                      <span class="fas fa-times"></span>
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr class="align-middle alert border-bottom">
+                              <td>
+                                  <div class="checkbox-wrapper-12">
+                                      <div class="cbx">
+                                        <input id="cbx-12" type="checkbox"/>
+                                        <label for="cbx-12"></label>
+                                        <svg width="15" height="14" viewbox="0 0 15 14" fill="none">
+                                          <path d="M2 8.36364L6.23077 12L13 2"></path>
+                                        </svg>
+                                      </div>
+                                      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                                        <defs>
+                                          <filter id="goo-12">
+                                            <fegaussianblur in="SourceGraphic" stddeviation="4" result="blur"></fegaussianblur>
+                                            <fecolormatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 22 -7" result="goo-12"></fecolormatrix>
+                                            <feblend in="SourceGraphic" in2="goo-12"></feblend>
+                                          </filter>
+                                        </defs>
+                                      </svg>
+                                    </div>
+                              </td>
+                              <td class="text-center">
+                                  <img class="product-pic"
+                                      src="img/shoes-images-6.png"
+                                      alt="">
+                              </td>
+                              <td>
+                                  <div>
+                                      <p class="m-0 fw-bold">Sneakers Shoes 2020 For Men</p>
+                                      <p class="m-0 text-muted">Fugiat Voluptates quasi nemo,ipsa perferencis</p>
+                                  </div>
+                              </td>
+                              <td>
+                                  <div class="fw-600">$50.99</div>
+                              </td>
+                              <td class="d-">
+                                  <input class="input" type="text" placeholder="2">
+                              </td>
+                              <td>
+                                  $100.98
+                              </td>
+                              <td>
+                                  <div class="btn" data-bs-dismiss="alert">
+                                      <span class="fas fa-times"></span>
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr class="align-middle alert border-bottom">
+                              <td>
+                                    <div class="checkbox-wrapper-12">
+                                      <div class="cbx">
+                                        <input id="cbx-12" type="checkbox"/>
+                                        <label for="cbx-12"></label>
+                                        <svg width="15" height="14" viewbox="0 0 15 14" fill="none">
+                                          <path d="M2 8.36364L6.23077 12L13 2"></path>
+                                        </svg>
+                                      </div>
+                                      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                                        <defs>
+                                          <filter id="goo-12">
+                                            <fegaussianblur in="SourceGraphic" stddeviation="4" result="blur"></fegaussianblur>
+                                            <fecolormatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 22 -7" result="goo-12"></fecolormatrix>
+                                            <feblend in="SourceGraphic" in2="goo-12"></feblend>
+                                          </filter>
+                                        </defs>
+                                      </svg>
+                                    </div>
+                              </td>
+                              <td class="text-center">
+                                  <img class="product-pic"
+                                      src="img/running-shoes-26.png"
+                                      alt="">
+                              </td>
+                              <td>
+                                  <div>
+                                      <p class="m-0 fw-bold">Sneakers Shoes 2020 For Men</p>
+                                      <p class="m-0 text-muted">Fugiat Voluptates quasi nemo,ipsa perferencis</p>
+                                  </div>
+                              </td>
+                              <td>
+                                  <div class="fw-600">$74.99</div>
+                              </td>
+                              <td>
+                                  <input class="input" type="text" placeholder="2">
+                              </td>
+                              <td>
+                                  $148.98
+                              </td>
+                              <td>
+                                  <div class="btn" data-bs-dismiss="alert">
+                                      <span class="fas fa-times"></span>
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr class="align-middle alert border-bottom">
+                              <td>
+                                    <div class="checkbox-wrapper-12">
+                                      <div class="cbx">
+                                        <input id="cbx-12" type="checkbox"/>
+                                        <label for="cbx-12"></label>
+                                        <svg width="15" height="14" viewbox="0 0 15 14" fill="none">
+                                          <path d="M2 8.36364L6.23077 12L13 2"></path>
+                                        </svg>
+                                      </div>
+                                      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                                        <defs>
+                                          <filter id="goo-12">
+                                            <fegaussianblur in="SourceGraphic" stddeviation="4" result="blur"></fegaussianblur>
+                                            <fecolormatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 22 -7" result="goo-12"></fecolormatrix>
+                                            <feblend in="SourceGraphic" in2="goo-12"></feblend>
+                                          </filter>
+                                        </defs>
+                                      </svg>
+                                    </div>
+                              </td>
+                              <td class="text-center">
+                                  <img class="product-pic"
+                                      src="img/vittaly-mens-sneakers.jpg"
+                                      alt="">
+                              </td>
+                              <td>
+                                  <div>
+                                      <p class="m-0 fw-bold">Sneakers Shoes 2020 For Men</p>
+                                      <p class="m-0 text-muted">Fugiat Voluptates quasi nemo,ipsa perferencis</p>
+                                  </div>
+                              </td>
+                              <td>
+                                  <div class="fw-600">$70.99</div>
+                              </td>
+                              <td>
+                                  <input class="input" type="text" placeholder="2">
+                              </td>
+                              <td>
+                                  $128.98
+                              </td>
+                              <td>
+                                  <div class="btn" data-bs-dismiss="alert">
+                                      <span class="fas fa-times"></span>
+                                  </div>
+                              </td>
+                          </tr>
+                          <tr class="align-middle alert border-bottom">
+                              <td>
+                                    <div class="checkbox-wrapper-12">
+                                      <div class="cbx">
+                                        <input id="cbx-12" type="checkbox"/>
+                                        <label for="cbx-12"></label>
+                                        <svg width="15" height="14" viewbox="0 0 15 14" fill="none">
+                                          <path d="M2 8.36364L6.23077 12L13 2"></path>
+                                        </svg>
+                                      </div>
+                                      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                                        <defs>
+                                          <filter id="goo-12">
+                                            <fegaussianblur in="SourceGraphic" stddeviation="4" result="blur"></fegaussianblur>
+                                            <fecolormatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 22 -7" result="goo-12"></fecolormatrix>
+                                            <feblend in="SourceGraphic" in2="goo-12"></feblend>
+                                          </filter>
+                                        </defs>
+                                      </svg>
+                                    </div>
+                              </td>
+                              <td class="text-center">
+                                  <img class="product-pic"
+                                      src="img/41-ILu2LyBL.png"
+                                      alt="">
+                              </td>
+                              <td>
+                                  <div>
+                                      <p class="m-0 fw-bold">Sneakers Shoes 2020 For Men</p>
+                                      <p class="m-0 text-muted">Fugiat Voluptates quasi nemo,ipsa perferencis</p>
+                                  </div>
+                              </td>
+                              <td>
+                                  <div class="fw-600">$60.99</div>
+                              </td>
+                              <td>
+                                  <input class="input" type="text" placeholder="1">
+                              </td>
+                              <td>
+                                  $151.98
+                              </td>
+                              <td>
+                                  <div class="btn" data-bs-dismiss="alert">
+                                      <span class="fas fa-times"></span>
+                                  </div>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+
+               </div> -->
+
+
+               <!--=============== HEADER ===============-->
+<!-- <header class="header" id="header">
+  <nav class="nav container">
+    <a href="#" class="nav__logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Beats_Electronics_logo.svg/2048px-Beats_Electronics_logo.svg.png" alt="">
+    </a>
+
+    <div class="nav__menu" id="nav-menu">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#home" class="nav__link active-link">Headphones // Earphones</a>
+        </li>
+        <li class="nav__item">
+          <a href="#specs" class="nav__link">Specs</a>
+        </li>
+        <li class="nav__item">
+          <a href="#case" class="nav__link">Case</a>
+        </li>
+        <li class="nav__item">
+          <a href="#products" class="nav__link">Products</a>
+        </li>
+      </ul>
+
+      <div class="nav__close" id="nav-close">
+        <i class="ri-close-line"></i>
+      </div>
+    </div>
+
+    <div class="nav__toggle" id="nav-toggle">
+      <i class="ri-function-line"></i>
+    </div>
+  </nav>
+</header> -->
+
+<main class="main">
+  <!--=============== HOME ===============-->
+  <section class="home section" id="home">
+    <div class="home__container container grid">
+      <div>
+        <img src="https://assets.codepen.io/7773162/home.png" alt="" class="home__img">
+      </div>
+
+      <div class="home__data">
+        <div class="home__header">
+          <h1 class="home__title">On ear</h1>
+          <h2 class="home__subtitle">Beats 3</h2>
+        </div>
+
+        <div class="home__footer">
+          <h3 class="home__title-description">Overview</h3>
+          <p class="home__description">Enjoy award-winning Beats sound with wireless listening freedom and a sleek,
+            streamlined design with comfortable padded earphones, delivering first-rate playback.
+          </p>
+          <a href="#" class="button button--flex">
+            <span class="button--flex">
+              <i class="far fa-bags-shopping"></i></i> Add to Bag
+            </span>
+            <span class="home__price">$299</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--=============== SPONSOR ===============-->
+  <section class="sponsor section">
+    <div class="sponsor__container container grid">
+      <img src="https://assets.codepen.io/7773162/sponsor1.png" alt="" class="sponsor__img">
+      <img src="https://assets.codepen.io/7773162/sponsor2.png" alt="" class="sponsor__img">
+      <img src="https://assets.codepen.io/7773162/sponsor3.png" alt="" class="sponsor__img">
+      <img src="https://assets.codepen.io/7773162/sponsor4.png" alt="" class="sponsor__img">
+    </div>
+  </section>
+
+  <!--=============== SPECS ===============-->
+  <section class="specs section grid" id="specs">
+    <h2 class="section__title section__title-gradient">Specs</h2>
+
+    <div class="specs__container container grid">
+      <div class="specs__content grid">
+        <div class="specs__data">
+          <i class="ri-bluetooth-line specs__icon"></i>
+          <h3 class="specs__title">Connection</h3>
+          <span class="specs__subtitle">Bluetooth v5.2</span>
+        </div>
+
+        <div class="specs__data">
+          <i class="ri-battery-charge-line specs__icon"></i>
+          <h3 class="specs__title">Battery</h3>
+          <span class="specs__subtitle">Duration 40h</span>
+        </div>
+
+        <div class="specs__data">
+          <i class="ri-plug-line specs__icon"></i>
+          <h3 class="specs__title">Load</h3>
+          <span class="specs__subtitle">Fast charge 4.2-AAC</span>
+        </div>
+
+        <div class="specs__data">
+          <i class="ri-mic-line specs__icon"></i>
+          <h3 class="specs__title">Microphone</h3>
+          <span class="specs__subtitle">Supports Apple Siri <br> and Google</span>
+        </div>
+      </div>
+
+      <div>
+        <img src="https://assets.codepen.io/7773162/specs.png" alt="" class="specs__img">
+      </div>
+    </div>
+  </section>
+
+  <!--=============== CASE ===============-->
+  <section class="case section grid" id="case">
+    <h2 class="section__title section__title-gradient">Case</h2>
+
+    <div class="case__container container grid">
+      <div>
+        <img src="https://assets.codepen.io/7773162/case.png" alt="" class="case__img">
+      </div>
+
+      <div class="case__data">
+        <p class="case__description">With a comfortable and adaptable case so that you can
+          store it whenever you want, and keep your durability forever.
+        </p>
+        <a href="#" class="button button--flex">
+          <i class="ri-information-line button__icon"></i> More info
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!--=============== DISCOUNT ===============-->
+  <section class="discount section">
+    <div class="discount__container container grid">
+      <div class="discount__animate">
+        <h2 class="discount__title">Immerse yourself in <br> your music</h2>
+        <p class="discount__description">Get it now, up to 50% off.</p>
+        <a href="#" class="button button--flex">Shop Now
+        </a>
+      </div>
+
+      <img src="https://assets.codepen.io/7773162/discount.png" alt="" class="discount__img">
+    </div>
+  </section>
+
+  <!--=============== PRODUCTS ===============-->
+  <section class="products section" id="products">
+    <h2 class="section__title section__title-gradient products__line">
+      Choose <br> Your Style
+    </h2>
+
+    <div class="products__container container grid">
+      <article class="products__card">
+        <div class="products__content">
+          <img src="https://assets.codepen.io/7773162/product1.png" alt="" class="products__img">
+
+          <h3 class="products__title">Black</h3>
+          <span class="products__price">$249</span>
+
+          <button class="button button--flex products__button">
+            <i class="fas fa-shopping-bag"></i>
+          </button>
+        </div>
+      </article>
+      <article class="products__card">
+        <div class="products__content">
+          <img src="https://assets.codepen.io/7773162/product2.png" alt="" class="products__img">
+
+          <h3 class="products__title">Red Black</h3>
+          <span class="products__price">$249</span>
+
+          <button class="button button--flex products__button">
+            <i class="fas fa-shopping-bag"></i>
+          </button>
+        </div>
+      </article>
+      <article class="products__card">
+        <div class="products__content">
+          <img src="https://assets.codepen.io/7773162/product3.png" alt="" class="products__img">
+
+          <h3 class="products__title">Night Black</h3>
+          <span class="products__price">$249</span>
+
+          <button class="button button--flex products__button">
+            <i class="fas fa-shopping-bag"></i>
+          </button>
+        </div>
+      </article>
+      <article class="products__card">
+        <div class="products__content">
+          <img src="https://assets.codepen.io/7773162/product4.png" alt="" class="products__img">
+
+          <h3 class="products__title">Blue</h3>
+          <span class="products__price">$249</span>
+
+          <button class="button button--flex products__button">
+            <i class="fas fa-shopping-bag"></i>
+          </button>
+        </div>
+      </article>
+
+      <article class="products__card">
+        <div class="products__content">
+          <img src="https://assets.codepen.io/7773162/product5.png" alt="" class="products__img">
+
+          <h3 class="products__title">Twilight gray</h3>
+          <span class="products__price">$249</span>
+
+          <button class="button button--flex products__button">
+            <i class="fas fa-shopping-bag"></i>
+          </button>
+        </div>
+      </article>
+
+      <article class="products__card">
+        <div class="products__content">
+          <img src="https://assets.codepen.io/7773162/product3.png" alt="" class="products__img">
+
+          <h3 class="products__title">Night Black</h3>
+          <span class="products__price">$249</span>
+
+          <button class="button button--flex products__button">
+            <i class="fas fa-shopping-bag"></i>
+          </button>
+        </div>
+      </article>
+
+      <article class="products__card">
+        <div class="products__content">
+          <img src="https://assets.codepen.io/7773162/product2.png" alt="" class="products__img">
+
+          <h3 class="products__title">Red Black</h3>
+          <span class="products__price">$249</span>
+
+          <button class="button button--flex products__button">
+            <i class="fas fa-shopping-bag"></i>
+          </button>
+        </div>
+      </article>
+      
+      <article class="products__card">
+        <div class="products__content">
+          <img src="https://assets.codepen.io/7773162/product1.png" alt="" class="products__img">
+
+          <h3 class="products__title">Black</h3>
+          <span class="products__price">$249</span>
+
+          <button class="button button--flex products__button">
+            <i class="fas fa-shopping-bag"></i>
+          </button>
+        </div>
+      </article>  
+    </div>
+
+
+
+    <div class="product-card">
+      <div class="image-container">
+        <div class="cover-image product-image">
+          <img src="img/product1.webp" alt="">
+        </div>
+        <div class="more-image-container">
+          <div class="more-image product-image">
+            <img src="img/product2.webp" alt="">
+          </div>
+          <div class="more-image product-image">
+            <img src="img/product3.webp" alt="">
+          </div>
+          <div class="more-image product-image">
+            <img src="img/product4.webp" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="product-info">
+        <a href="#" class="free-shipping">Free shipping</a>
+        <h3 class="product-name">Razer Kraken Kitty Edt Gamming Headset Quartz</h3>
+        <p class="regular-price text-muted">1599$</p>
+        <p class="discount-price text-muted">799$</p>
+        <p class="offer-info">The offer is valid until April 3 or as long as stock losts!</p>
+        <a href="#" class="add-to-cart">
+          <ion-icon name="add-outline"></ion-icon> Add to cart
+        </a>
+        <!-- //////////// modal start///////////// -->
+
+   
+ <!-- //////////// modal end///////////// -->
+
+        <div class="stock">
+          <div class="stock-status"></div>
+          <p class="stock-info text-muted">50+ pcs. in stock.</p>
+        </div>
+        <div class="buttons">
+          <a href="#" class="button">
+            <ion-icon name="bag-add-outline"></ion-icon> Add to cart
+          </a>
+          <a href="#" class="button">
+            <ion-icon name="heart-outline"></ion-icon> Add to wishlist
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!--=============== FOOTER ===============-->
+<footer class="footer section">
+  <div class="footer__container container grid">
+    <a href="#" class="footer__logo">
+      <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Beats_Electronics_logo.svg/2048px-Beats_Electronics_logo.svg.png" alt=""> -->
+    </a>
+
+    <div class="footer__content">
+      <h3 class="footer__title">Products</h3>
+
+      <ul class="footer__links">
+        <li>
+          <a href="#" class="footer__link">Headphones</a>
+        </li>
+        <li>
+          <a href="#" class="footer__link">Earphones</a>
+        </li>
+        <li>
+          <a href="#" class="footer__link">Earbuds</a>
+        </li>
+        <li>
+          <a href="#" class="footer__link">Accesories</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer__content">
+      <h3 class="footer__title">Support</h3>
+
+      <ul class="footer__links">
+        <li>
+          <a href="#" class="footer__link">Product help</a>
+        </li>
+        <li>
+          <a href="#" class="footer__link">Register</a>
+        </li>
+        <li>
+          <a href="#" class="footer__link">Updates</a>
+        </li>
+        <li>
+          <a href="#" class="footer__link">Provides</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer__content">
+      <form action="" class="footer__form">
+        <input type="email" placeholder="Email" class="footer__input">
+        <button class="button button--flex">
+          <i class="ri-send-plane-line button__icon"></i> Subscribe
+        </button>
+      </form>
+
+      <div class="footer__social">
+        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+<!--=============== SCROLL UP ===============-->
+<a href="#" class="scrollup" id="scroll-up">
+  <i class="fas fa-chevron-up"></i>
+</a>
+
+            </div>
+        </main>
+        <!-- page-content" -->
+      </div>
+      <!-- page-wrapper -->
+
+    <script src="js/bootstrap.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="js/jquery-3.6.2.min.js"></script>
+    <script src="js/datatables.min.js"></script>
+    <script src="js/product.js"></script>
+</body> 
